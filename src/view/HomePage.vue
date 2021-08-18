@@ -57,642 +57,642 @@
       </div>
     </div>
     <!-- 客户评价 -->
-    <div id="customer" class="container-fuild">
-      <div class="container customer-container">
-        <p class="customer-title text-center">合作伙伴</p>
-        <div class="swiper-container customer-swiper hidden-xs">
-<!--          <div class="swiper-wrapper">-->
-<!--            <div-->
-<!--              class="swiper-slide customer-block"-->
-<!--              v-for="(item,index) in customerList"-->
-<!--              :key="index"-->
-<!--            >-->
-<!--              <div class="customer-logo">-->
-<!--                <img class="center-block" :src="item.logo" alt="logo">-->
-<!--              </div>-->
-<!--              <div class="customer-yh">-->
-<!--                <img src="@/assets/img/yinhao.png" alt="引号">-->
-<!--              </div>-->
-<!--              <div class="customer-content1">-->
-<!--                <small>{{item.content}}</small>-->
-<!--              </div>-->
-<!--              <div class="customer-content2">{{item.title}}</div>-->
+<!--    <div id="customer" class="container-fuild">-->
+<!--      <div class="container customer-container">-->
+<!--        <p class="customer-title text-center">合作伙伴</p>-->
+<!--        <div class="swiper-container customer-swiper hidden-xs">-->
+<!--&lt;!&ndash;          <div class="swiper-wrapper">&ndash;&gt;-->
+<!--&lt;!&ndash;            <div&ndash;&gt;-->
+<!--&lt;!&ndash;              class="swiper-slide customer-block"&ndash;&gt;-->
+<!--&lt;!&ndash;              v-for="(item,index) in customerList"&ndash;&gt;-->
+<!--&lt;!&ndash;              :key="index"&ndash;&gt;-->
+<!--&lt;!&ndash;            >&ndash;&gt;-->
+<!--&lt;!&ndash;              <div class="customer-logo">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img class="center-block" :src="item.logo" alt="logo">&ndash;&gt;-->
+<!--&lt;!&ndash;              </div>&ndash;&gt;-->
+<!--&lt;!&ndash;              <div class="customer-yh">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img src="@/assets/img/yinhao.png" alt="引号">&ndash;&gt;-->
+<!--&lt;!&ndash;              </div>&ndash;&gt;-->
+<!--&lt;!&ndash;              <div class="customer-content1">&ndash;&gt;-->
+<!--&lt;!&ndash;                <small>{{item.content}}</small>&ndash;&gt;-->
+<!--&lt;!&ndash;              </div>&ndash;&gt;-->
+<!--&lt;!&ndash;              <div class="customer-content2">{{item.title}}</div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;          </div>&ndash;&gt;-->
+<!--          &lt;!&ndash; 如果需要导航按钮 &ndash;&gt;-->
+<!--&lt;!&ndash;          <div class="swiper-button-prev"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;          <div class="swiper-button-next"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;          <div class="vc_row wpb_row vc_row-fluid row vc_custom_1524036800444"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            <h2 style="font-size: 22px;color: #047abc;text-align: left" class="vc_custom_heading vc_custom_1524811768850">Customers and Collaborators</h2>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            <div class="wpb_text_column wpb_content_element ">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;              <div class="wpb_wrapper">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                <div class="wondercarousellightbox_options" data-skinsfoldername="" data-jsfolder="https://www.petagene.com/wp-content/plugins/wonderplugin-carousel/engine/" style="display:none;"></div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                <div class="wonderplugincarousel-container" id="wonderplugincarousel-container-2">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                  <div class="wonderplugincarousel" id="wonderplugincarousel-2" data-carouselid="2" data-width="200" data-height="60"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-skin="gallery" data-showimgtitle="false" data-sameheight="true" data-sameheightresponsive="false"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-fullwidth="false" data-centerimage="false" data-fitimage="false" data-fitcenterimage="false"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-fixaspectratio="false" data-autoplay="true" data-random="false" data-circular="true"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-pauseonmouseover="true" data-continuous="true" data-responsive="true" data-showhoveroverlay="false"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-showhoveroverlayalways="false" data-hidehoveroverlayontouch="false" data-lightboxresponsive="false"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxshownavigation="false" data-lightboxnogroup="false" data-lightboxshowtitle="false"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxshowdescription="false" data-lightboxaddsocialmedia="false" data-usescreenquery="false"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-donotinit="false" data-addinitscript="false" data-doshortcodeontext="false" data-lightboxshowsocial="false"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxshowfacebook="true" data-lightboxshowtwitter="true" data-lightboxshowpinterest="true"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxsocialrotateeffect="true" data-donotcircularforless="false" data-deferloading="false"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-hidecontainerbeforeloaded="false" data-hidecontaineroninit="true" data-lightboximagekeepratio="true"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-showplayvideo="false" data-triggerresize="false" data-lightboxfullscreenmode="false"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxcloseonoverlay="true" data-lightboxvideohidecontrols="false" data-lightboxautoslide="false"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxshowtimer="true" data-lightboxshowplaybutton="true" data-lightboxalwaysshownavarrows="false"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxshowtitleprefix="true" data-spacing="4" data-rownumber="1" data-visibleitems="6"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-arrowstyle="mouseover" data-arrowimage="arrows-48-48-2.png" data-arrowwidth="48" data-arrowheight="48"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-navstyle="none" data-navimage="bullet-16-16-0.png" data-navwidth="16" data-navheight="16" data-navspacing="8"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-hoveroverlayimage="hoveroverlay-64-64-5.png" data-lightboxthumbwidth="90" data-lightboxthumbheight="60"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxthumbtopmargin="12" data-lightboxthumbbottommargin="4" data-lightboxbarheight="64"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxtitlebottomcss="{color:#333; font-size:14px; font-family:Armata,sans-serif,Arial; overflow:hidden; text-align:left;}"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxdescriptionbottomcss="{color:#333; font-size:12px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:left; margin:4px 0px 0px; padding: 0px;}"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-continuousduration="2500" data-autoplaydir="left" data-scrollmode="page" data-interval="3000"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-transitionduration="1000" data-lightboxtitlestyle="bottom" data-lightboximagepercentage="75"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxdefaultvideovolume="1" data-lightboxoverlaybgcolor="#000" data-lightboxoverlayopacity="0.9"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxbgcolor="#fff" data-lightboxtitleprefix="%NUM / %TOTAL"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxtitleinsidecss="color:#fff; font-size:16px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:left;"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxdescriptioninsidecss="color:#fff; font-size:12px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:left; margin:4px 0px 0px; padding: 0px;"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-playvideoimage="playvideo-64-64-0.png" data-playvideoimagepos="center" data-imgtitle="title"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-circularlimit="3" data-deferloadingdelay="0" data-lightboxsocialposition="position:absolute;top:100%;right:0;"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxsocialpositionsmallscreen="position:absolute;top:100%;right:0;left:0;"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxsocialdirection="horizontal" data-lightboxsocialbuttonsize="32" data-lightboxsocialbuttonfontsize="18"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-sameheightmediumscreen="769" data-sameheightmediumheight="200" data-sameheightsmallscreen="415"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-sameheightsmallheight="150" data-triggerresizedelay="100" data-lightboxslideinterval="5000"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxtimerposition="bottom" data-lightboxtimercolor="#dc572e" data-lightboxtimeropacity="1"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-lightboxbordersize="0" data-lightboxborderradius="0"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-screenquery="{ 'tablet': { 'screenwidth': 800, 'visibleitems': 2 }, 'mobile': { 'screenwidth': 480, 'visibleitems': 1 } }"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       data-jsfolder="https://www.petagene.com/wp-content/plugins/wonderplugin-carousel/engine/"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                       style="display: block; position: relative; margin: 0px auto; width: 100%; max-width: 1200px; direction: ltr;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    <div class="amazingcarousel-list-container"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                         style="overflow: visible; position: relative; margin: 0px auto; width: 1000px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                      <div class="amazingcarousel-list-wrapper" style="overflow: hidden; width: 1000px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                        <ul class="amazingcarousel-list"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            style="display: block; position: relative; list-style-type: none; list-style-image: none; background-image: none; background-color: transparent; padding: 0px; margin: 0px 0px 0px -175.194px; white-space: nowrap; width: auto;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-0"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/10/AZ_new_LR-1.jpeg" alt="AstraZeneca"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-title="AstraZeneca" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px; visibility: visible;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-1"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/NHS.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      alt="NHS" data-title="NHS" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      style="width: auto; height: 60px; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px; visibility: visible;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                href="https://www.petagene.com/wp-content/uploads/2019/08/Univ-of-Gothenburg.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                title="University of Gothenburg"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/Univ-of-Gothenburg-300x221.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-mediatype="0"><img src="https://www.petagene.com/wp-content/uploads/2019/08/Univ-of-Gothenburg.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        alt="University of Gothenburg logo" data-title="University of Gothenburg"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        style="width: auto; height: 60px; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px; visibility: visible;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-3"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/lux.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      alt="University of Luxembourg" data-title="University of Luxembourg"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      style="width: auto; height: 60px; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px; visibility: visible;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-4"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/01/na_alliance-partner_2c_rgb_crop.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="NetApp Alliance Partner logo" data-title="NetApp" data-description="NetApp Alliance Partner logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px; visibility: visible;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-5"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2018/06/dell-emc.png" alt="DellEMC" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-6"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/google.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      alt="Google" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-7"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                href="https://www.petagene.com/wp-content/uploads/2019/08/wekaio_logo_web.png" title="Weka.io logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/wekaio_logo_web-300x167.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-mediatype="0"><img src="https://www.petagene.com/wp-content/uploads/2019/08/wekaio_logo_web.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        alt="Weka.io logo" data-title="Weka.io logo" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-8"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/cam.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      alt="University of Cambridge" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-9"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/intel.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      alt="Intel" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-10"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/PHI.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      alt="Precision Health Informatics"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      data-title="Precision Health Informatics" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-11"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                href="https://www.petagene.com/wp-content/uploads/2019/08/KNIH_logo_eng1_colour.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                title="National Institute of Health Republic of Korea logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/KNIH_logo_eng1_colour-300x57.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-mediatype="0"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/08/KNIH_logo_eng1_colour.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="National Institute of Health Republic of Korea logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-title="National Institute of Health Republic of Korea logo" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-12"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a href="https://www.cegat.de/en/" target="_blank"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2020/01/CeGaT_Logo_RGB_m-S_Color-carousel.jpg"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="CeGaT Logo" data-description="CeGaT logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-13"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a href="https://www.prinsesmaximacentrum.nl/en" target="_blank"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/08/prinses-maxima-centrum-logo-en.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="Princess Maxima Center logo" data-title="Princess Maxima Center logo" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-14"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a href="https://www.sentieon.com/" target="_blank"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/08/Sentieonlogo_web.png" alt="Sentieon logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-title="Sentieon logo" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-15"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                href="https://www.petagene.com/wp-content/uploads/2019/08/ToMMo-logo_web.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                title="Tohoku Medical Megabank Organisation"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/ToMMo-logo_web-300x200.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-mediatype="0"><img src="https://www.petagene.com/wp-content/uploads/2019/08/ToMMo-logo_web.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        alt="Tohoku Medical Megabank Organisation logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        data-title="Tohoku Medical Megabank Organisation" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-16"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                href="https://www.petagene.com/wp-content/uploads/2019/08/Baylor_College_of_Medicine_Logo_square_web.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                title="Baylor College of Medicine logo" data-description="Baylor College of Medicine"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/Baylor_College_of_Medicine_Logo_square_web-300x300.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-mediatype="0"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/08/Baylor_College_of_Medicine_Logo_square_web.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="Baylor College of Medicine logo" data-title="Baylor College of Medicine logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-description="Baylor College of Medicine"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-17"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a href="https://wwwen.uni.lu/lcsb" target="_self"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/08/LCSB-words-logo_web.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="Luxembourg Centre for Systems Biomedicine logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-title="Luxembourg Centre for Systems Biomedicine" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-18"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/kings.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      alt="King's College London" data-title="King's College London"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-19"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a href="https://www.tgen.org/" target="_blank"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/10/TGen_Color_LOGO_medium.png" alt="TGen"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-title="TGen" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-20"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a href="https://www.petagene.com/wp-content/uploads/2021/03/elixir.jpg"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                    title="elixir"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                    data-thumbnail="https://www.petagene.com/wp-content/uploads/2021/03/elixir-300x129.jpg"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                    class="wondercarousellightbox wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                    data-group="wondercarousellightbox-2" data-mediatype="0"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2021/03/elixir.jpg" alt="elixir" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-21"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                href="https://www.petagene.com/wp-content/uploads/2021/03/LifeCell-Corporate-Logo.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                title="LifeCell Corporate Logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2021/03/LifeCell-Corporate-Logo-300x83.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-mediatype="0"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2021/03/LifeCell-Corporate-Logo.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="LifeCell Corporate Logo" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-22"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                href="https://www.petagene.com/wp-content/uploads/2021/05/BioSkrybGenomics_Logo.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                title="BioSkryb Genomics"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2021/05/BioSkrybGenomics_Logo.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-mediatype="0"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2021/05/BioSkrybGenomics_Logo.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="BioSkryb Genomics" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-0"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/10/AZ_new_LR-1.jpeg" alt="AstraZeneca"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-title="AstraZeneca" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-1"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/NHS.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      alt="NHS" data-title="NHS" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                href="https://www.petagene.com/wp-content/uploads/2019/08/Univ-of-Gothenburg.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                title="University of Gothenburg"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/Univ-of-Gothenburg-300x221.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-mediatype="0"><img src="https://www.petagene.com/wp-content/uploads/2019/08/Univ-of-Gothenburg.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        alt="University of Gothenburg logo" data-title="University of Gothenburg"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-3"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/lux.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      alt="University of Luxembourg" data-title="University of Luxembourg"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-4"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/01/na_alliance-partner_2c_rgb_crop.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="NetApp Alliance Partner logo" data-title="NetApp" data-description="NetApp Alliance Partner logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-5"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2018/06/dell-emc.png" alt="DellEMC" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-6"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/google.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      alt="Google" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-7"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                href="https://www.petagene.com/wp-content/uploads/2019/08/wekaio_logo_web.png" title="Weka.io logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/wekaio_logo_web-300x167.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-mediatype="0"><img src="https://www.petagene.com/wp-content/uploads/2019/08/wekaio_logo_web.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        alt="Weka.io logo" data-title="Weka.io logo" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-8"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/cam.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      alt="University of Cambridge" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-9"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/intel.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      alt="Intel" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-10"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/PHI.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      alt="Precision Health Informatics"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      data-title="Precision Health Informatics" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-11"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                href="https://www.petagene.com/wp-content/uploads/2019/08/KNIH_logo_eng1_colour.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                title="National Institute of Health Republic of Korea logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/KNIH_logo_eng1_colour-300x57.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-mediatype="0"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/08/KNIH_logo_eng1_colour.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="National Institute of Health Republic of Korea logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-title="National Institute of Health Republic of Korea logo" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-12"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a href="https://www.cegat.de/en/" target="_blank"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2020/01/CeGaT_Logo_RGB_m-S_Color-carousel.jpg"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="CeGaT Logo" data-description="CeGaT logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-13"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a href="https://www.prinsesmaximacentrum.nl/en" target="_blank"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/08/prinses-maxima-centrum-logo-en.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="Princess Maxima Center logo" data-title="Princess Maxima Center logo" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-14"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a href="https://www.sentieon.com/" target="_blank"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/08/Sentieonlogo_web.png" alt="Sentieon logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-title="Sentieon logo" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-15"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                href="https://www.petagene.com/wp-content/uploads/2019/08/ToMMo-logo_web.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                title="Tohoku Medical Megabank Organisation"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/ToMMo-logo_web-300x200.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-mediatype="0"><img src="https://www.petagene.com/wp-content/uploads/2019/08/ToMMo-logo_web.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        alt="Tohoku Medical Megabank Organisation logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        data-title="Tohoku Medical Megabank Organisation" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                        style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-16"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                href="https://www.petagene.com/wp-content/uploads/2019/08/Baylor_College_of_Medicine_Logo_square_web.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                title="Baylor College of Medicine logo" data-description="Baylor College of Medicine"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/Baylor_College_of_Medicine_Logo_square_web-300x300.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-mediatype="0"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/08/Baylor_College_of_Medicine_Logo_square_web.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="Baylor College of Medicine logo" data-title="Baylor College of Medicine logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-description="Baylor College of Medicine"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-17"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a href="https://wwwen.uni.lu/lcsb" target="_self"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/08/LCSB-words-logo_web.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="Luxembourg Centre for Systems Biomedicine logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-title="Luxembourg Centre for Systems Biomedicine" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-18"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/kings.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      alt="King's College London" data-title="King's College London"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-19"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a href="https://www.tgen.org/" target="_blank"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2019/10/TGen_Color_LOGO_medium.png" alt="TGen"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-title="TGen" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-20"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a href="https://www.petagene.com/wp-content/uploads/2021/03/elixir.jpg"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                    title="elixir"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                    data-thumbnail="https://www.petagene.com/wp-content/uploads/2021/03/elixir-300x129.jpg"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                    class="wondercarousellightbox wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                                                    data-group="wondercarousellightbox-2" data-mediatype="0"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2021/03/elixir.jpg" alt="elixir" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-21"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                href="https://www.petagene.com/wp-content/uploads/2021/03/LifeCell-Corporate-Logo.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                title="LifeCell Corporate Logo"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2021/03/LifeCell-Corporate-Logo-300x83.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-mediatype="0"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2021/03/LifeCell-Corporate-Logo.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="LifeCell Corporate Logo" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <li class="amazingcarousel-item amazingcarousel-item-22"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              <div class="amazingcarousel-image"><a&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                href="https://www.petagene.com/wp-content/uploads/2021/05/BioSkrybGenomics_Logo.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                title="BioSkryb Genomics"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2021/05/BioSkrybGenomics_Logo.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                data-mediatype="0"><img&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                src="https://www.petagene.com/wp-content/uploads/2021/05/BioSkrybGenomics_Logo.png"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                alt="BioSkryb Genomics" data-description=""&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                          <div style="clear:both;"></div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                        </ul>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                      </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                      <div class="amazingcarousel-prev"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                           style="overflow: hidden; position: absolute; cursor: pointer; width: 48px; height: 48px; background: url('https://www.petagene.com/wp-content/plugins/wonderplugin-carousel/engine/arrows-48-48-2.png') left top no-repeat; display: none;"></div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                      <div class="amazingcarousel-next"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                           style="overflow: hidden; position: absolute; cursor: pointer; width: 48px; height: 48px; background: url('https://www.petagene.com/wp-content/plugins/wonderplugin-carousel/engine/arrows-48-48-2.png') right top no-repeat; display: none;"></div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    <div class="amazingcarousel-nav"></div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                  </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;              </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;          </div></div></div></div>&ndash;&gt;-->
+<!--        </div>-->
+<!--        <div class="row visible-xs customer-block">-->
+<!--          <div class="col-xs-12" v-for="(item,index) in customerList" :key="index">-->
+<!--            <div class="customer-logo">-->
+<!--              <img class="center-block" :src="item.logo" alt="logo">-->
+<!--            </div>-->
+<!--            <div class="customer-yh">-->
+<!--              <img src="@/assets/img/yinhao.png" alt="引号">-->
+<!--            </div>-->
+<!--            <div class="customer-content1">-->
+<!--              <small>{{item.content}}</small>-->
+<!--            </div>-->
+<!--            <div class="customer-content2">-->
+<!--              <small>{{item.title}}</small>-->
 <!--            </div>-->
 <!--          </div>-->
-          <!-- 如果需要导航按钮 -->
-<!--          <div class="swiper-button-prev"></div>-->
-<!--          <div class="swiper-button-next"></div>-->
-          <div class="vc_row wpb_row vc_row-fluid row vc_custom_1524036800444"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<!--            <h2 style="font-size: 22px;color: #047abc;text-align: left" class="vc_custom_heading vc_custom_1524811768850">Customers and Collaborators</h2>-->
-            <div class="wpb_text_column wpb_content_element ">
-              <div class="wpb_wrapper">
-                <div class="wondercarousellightbox_options" data-skinsfoldername="" data-jsfolder="https://www.petagene.com/wp-content/plugins/wonderplugin-carousel/engine/" style="display:none;"></div>
-                <div class="wonderplugincarousel-container" id="wonderplugincarousel-container-2">
-                  <div class="wonderplugincarousel" id="wonderplugincarousel-2" data-carouselid="2" data-width="200" data-height="60"
-                       data-skin="gallery" data-showimgtitle="false" data-sameheight="true" data-sameheightresponsive="false"
-                       data-fullwidth="false" data-centerimage="false" data-fitimage="false" data-fitcenterimage="false"
-                       data-fixaspectratio="false" data-autoplay="true" data-random="false" data-circular="true"
-                       data-pauseonmouseover="true" data-continuous="true" data-responsive="true" data-showhoveroverlay="false"
-                       data-showhoveroverlayalways="false" data-hidehoveroverlayontouch="false" data-lightboxresponsive="false"
-                       data-lightboxshownavigation="false" data-lightboxnogroup="false" data-lightboxshowtitle="false"
-                       data-lightboxshowdescription="false" data-lightboxaddsocialmedia="false" data-usescreenquery="false"
-                       data-donotinit="false" data-addinitscript="false" data-doshortcodeontext="false" data-lightboxshowsocial="false"
-                       data-lightboxshowfacebook="true" data-lightboxshowtwitter="true" data-lightboxshowpinterest="true"
-                       data-lightboxsocialrotateeffect="true" data-donotcircularforless="false" data-deferloading="false"
-                       data-hidecontainerbeforeloaded="false" data-hidecontaineroninit="true" data-lightboximagekeepratio="true"
-                       data-showplayvideo="false" data-triggerresize="false" data-lightboxfullscreenmode="false"
-                       data-lightboxcloseonoverlay="true" data-lightboxvideohidecontrols="false" data-lightboxautoslide="false"
-                       data-lightboxshowtimer="true" data-lightboxshowplaybutton="true" data-lightboxalwaysshownavarrows="false"
-                       data-lightboxshowtitleprefix="true" data-spacing="4" data-rownumber="1" data-visibleitems="6"
-                       data-arrowstyle="mouseover" data-arrowimage="arrows-48-48-2.png" data-arrowwidth="48" data-arrowheight="48"
-                       data-navstyle="none" data-navimage="bullet-16-16-0.png" data-navwidth="16" data-navheight="16" data-navspacing="8"
-                       data-hoveroverlayimage="hoveroverlay-64-64-5.png" data-lightboxthumbwidth="90" data-lightboxthumbheight="60"
-                       data-lightboxthumbtopmargin="12" data-lightboxthumbbottommargin="4" data-lightboxbarheight="64"
-                       data-lightboxtitlebottomcss="{color:#333; font-size:14px; font-family:Armata,sans-serif,Arial; overflow:hidden; text-align:left;}"
-                       data-lightboxdescriptionbottomcss="{color:#333; font-size:12px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:left; margin:4px 0px 0px; padding: 0px;}"
-                       data-continuousduration="2500" data-autoplaydir="left" data-scrollmode="page" data-interval="3000"
-                       data-transitionduration="1000" data-lightboxtitlestyle="bottom" data-lightboximagepercentage="75"
-                       data-lightboxdefaultvideovolume="1" data-lightboxoverlaybgcolor="#000" data-lightboxoverlayopacity="0.9"
-                       data-lightboxbgcolor="#fff" data-lightboxtitleprefix="%NUM / %TOTAL"
-                       data-lightboxtitleinsidecss="color:#fff; font-size:16px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:left;"
-                       data-lightboxdescriptioninsidecss="color:#fff; font-size:12px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:left; margin:4px 0px 0px; padding: 0px;"
-                       data-playvideoimage="playvideo-64-64-0.png" data-playvideoimagepos="center" data-imgtitle="title"
-                       data-circularlimit="3" data-deferloadingdelay="0" data-lightboxsocialposition="position:absolute;top:100%;right:0;"
-                       data-lightboxsocialpositionsmallscreen="position:absolute;top:100%;right:0;left:0;"
-                       data-lightboxsocialdirection="horizontal" data-lightboxsocialbuttonsize="32" data-lightboxsocialbuttonfontsize="18"
-                       data-sameheightmediumscreen="769" data-sameheightmediumheight="200" data-sameheightsmallscreen="415"
-                       data-sameheightsmallheight="150" data-triggerresizedelay="100" data-lightboxslideinterval="5000"
-                       data-lightboxtimerposition="bottom" data-lightboxtimercolor="#dc572e" data-lightboxtimeropacity="1"
-                       data-lightboxbordersize="0" data-lightboxborderradius="0"
-                       data-screenquery="{ 'tablet': { 'screenwidth': 800, 'visibleitems': 2 }, 'mobile': { 'screenwidth': 480, 'visibleitems': 1 } }"
-                       data-jsfolder="https://www.petagene.com/wp-content/plugins/wonderplugin-carousel/engine/"
-                       style="display: block; position: relative; margin: 0px auto; width: 100%; max-width: 1200px; direction: ltr;">
-                    <div class="amazingcarousel-list-container"
-                         style="overflow: visible; position: relative; margin: 0px auto; width: 1000px;">
-                      <div class="amazingcarousel-list-wrapper" style="overflow: hidden; width: 1000px;">
-                        <ul class="amazingcarousel-list"
-                            style="display: block; position: relative; list-style-type: none; list-style-image: none; background-image: none; background-color: transparent; padding: 0px; margin: 0px 0px 0px -175.194px; white-space: nowrap; width: auto;">
-                          <li class="amazingcarousel-item amazingcarousel-item-0"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/10/AZ_new_LR-1.jpeg" alt="AstraZeneca"
-                                data-title="AstraZeneca" data-description=""
-                                style="width: auto; height: 60px; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px; visibility: visible;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-1"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/NHS.png"
-                                                                      alt="NHS" data-title="NHS" data-description=""
-                                                                      style="width: auto; height: 60px; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px; visibility: visible;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-2"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a
-                                href="https://www.petagene.com/wp-content/uploads/2019/08/Univ-of-Gothenburg.png"
-                                title="University of Gothenburg"
-                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/Univ-of-Gothenburg-300x221.png"
-                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"
-                                data-mediatype="0"><img src="https://www.petagene.com/wp-content/uploads/2019/08/Univ-of-Gothenburg.png"
-                                                        alt="University of Gothenburg logo" data-title="University of Gothenburg"
-                                                        data-description=""
-                                                        style="width: auto; height: 60px; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px; visibility: visible;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-3"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/lux.png"
-                                                                      alt="University of Luxembourg" data-title="University of Luxembourg"
-                                                                      data-description=""
-                                                                      style="width: auto; height: 60px; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px; visibility: visible;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-4"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/01/na_alliance-partner_2c_rgb_crop.png"
-                                alt="NetApp Alliance Partner logo" data-title="NetApp" data-description="NetApp Alliance Partner logo"
-                                style="width: auto; height: 60px; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px; visibility: visible;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-5"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img
-                                src="https://www.petagene.com/wp-content/uploads/2018/06/dell-emc.png" alt="DellEMC" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-6"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/google.png"
-                                                                      alt="Google" data-description=""
-                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-7"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a
-                                href="https://www.petagene.com/wp-content/uploads/2019/08/wekaio_logo_web.png" title="Weka.io logo"
-                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/wekaio_logo_web-300x167.png"
-                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"
-                                data-mediatype="0"><img src="https://www.petagene.com/wp-content/uploads/2019/08/wekaio_logo_web.png"
-                                                        alt="Weka.io logo" data-title="Weka.io logo" data-description=""
-                                                        style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-8"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/cam.png"
-                                                                      alt="University of Cambridge" data-description=""
-                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-9"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/intel.png"
-                                                                      alt="Intel" data-description=""
-                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-10"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/PHI.png"
-                                                                      alt="Precision Health Informatics"
-                                                                      data-title="Precision Health Informatics" data-description=""
-                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-11"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a
-                                href="https://www.petagene.com/wp-content/uploads/2019/08/KNIH_logo_eng1_colour.png"
-                                title="National Institute of Health Republic of Korea logo"
-                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/KNIH_logo_eng1_colour-300x57.png"
-                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"
-                                data-mediatype="0"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/08/KNIH_logo_eng1_colour.png"
-                                alt="National Institute of Health Republic of Korea logo"
-                                data-title="National Institute of Health Republic of Korea logo" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-12"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a href="https://www.cegat.de/en/" target="_blank"><img
-                                src="https://www.petagene.com/wp-content/uploads/2020/01/CeGaT_Logo_RGB_m-S_Color-carousel.jpg"
-                                alt="CeGaT Logo" data-description="CeGaT logo"
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-13"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a href="https://www.prinsesmaximacentrum.nl/en" target="_blank"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/08/prinses-maxima-centrum-logo-en.png"
-                                alt="Princess Maxima Center logo" data-title="Princess Maxima Center logo" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-14"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a href="https://www.sentieon.com/" target="_blank"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/08/Sentieonlogo_web.png" alt="Sentieon logo"
-                                data-title="Sentieon logo" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-15"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a
-                                href="https://www.petagene.com/wp-content/uploads/2019/08/ToMMo-logo_web.png"
-                                title="Tohoku Medical Megabank Organisation"
-                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/ToMMo-logo_web-300x200.png"
-                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"
-                                data-mediatype="0"><img src="https://www.petagene.com/wp-content/uploads/2019/08/ToMMo-logo_web.png"
-                                                        alt="Tohoku Medical Megabank Organisation logo"
-                                                        data-title="Tohoku Medical Megabank Organisation" data-description=""
-                                                        style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-16"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a
-                                href="https://www.petagene.com/wp-content/uploads/2019/08/Baylor_College_of_Medicine_Logo_square_web.png"
-                                title="Baylor College of Medicine logo" data-description="Baylor College of Medicine"
-                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/Baylor_College_of_Medicine_Logo_square_web-300x300.png"
-                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"
-                                data-mediatype="0"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/08/Baylor_College_of_Medicine_Logo_square_web.png"
-                                alt="Baylor College of Medicine logo" data-title="Baylor College of Medicine logo"
-                                data-description="Baylor College of Medicine"
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-17"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a href="https://wwwen.uni.lu/lcsb" target="_self"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/08/LCSB-words-logo_web.png"
-                                alt="Luxembourg Centre for Systems Biomedicine logo"
-                                data-title="Luxembourg Centre for Systems Biomedicine" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-18"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/kings.png"
-                                                                      alt="King's College London" data-title="King's College London"
-                                                                      data-description=""
-                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-19"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a href="https://www.tgen.org/" target="_blank"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/10/TGen_Color_LOGO_medium.png" alt="TGen"
-                                data-title="TGen" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-20"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a href="https://www.petagene.com/wp-content/uploads/2021/03/elixir.jpg"
-                                                                    title="elixir"
-                                                                    data-thumbnail="https://www.petagene.com/wp-content/uploads/2021/03/elixir-300x129.jpg"
-                                                                    class="wondercarousellightbox wondercarousellightbox-2"
-                                                                    data-group="wondercarousellightbox-2" data-mediatype="0"><img
-                                src="https://www.petagene.com/wp-content/uploads/2021/03/elixir.jpg" alt="elixir" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-21"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a
-                                href="https://www.petagene.com/wp-content/uploads/2021/03/LifeCell-Corporate-Logo.png"
-                                title="LifeCell Corporate Logo"
-                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2021/03/LifeCell-Corporate-Logo-300x83.png"
-                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"
-                                data-mediatype="0"><img
-                                src="https://www.petagene.com/wp-content/uploads/2021/03/LifeCell-Corporate-Logo.png"
-                                alt="LifeCell Corporate Logo" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-22"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a
-                                href="https://www.petagene.com/wp-content/uploads/2021/05/BioSkrybGenomics_Logo.png"
-                                title="BioSkryb Genomics"
-                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2021/05/BioSkrybGenomics_Logo.png"
-                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"
-                                data-mediatype="0"><img
-                                src="https://www.petagene.com/wp-content/uploads/2021/05/BioSkrybGenomics_Logo.png"
-                                alt="BioSkryb Genomics" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-0"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/10/AZ_new_LR-1.jpeg" alt="AstraZeneca"
-                                data-title="AstraZeneca" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-1"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/NHS.png"
-                                                                      alt="NHS" data-title="NHS" data-description=""
-                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-2"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a
-                                href="https://www.petagene.com/wp-content/uploads/2019/08/Univ-of-Gothenburg.png"
-                                title="University of Gothenburg"
-                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/Univ-of-Gothenburg-300x221.png"
-                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"
-                                data-mediatype="0"><img src="https://www.petagene.com/wp-content/uploads/2019/08/Univ-of-Gothenburg.png"
-                                                        alt="University of Gothenburg logo" data-title="University of Gothenburg"
-                                                        data-description=""
-                                                        style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-3"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/lux.png"
-                                                                      alt="University of Luxembourg" data-title="University of Luxembourg"
-                                                                      data-description=""
-                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-4"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/01/na_alliance-partner_2c_rgb_crop.png"
-                                alt="NetApp Alliance Partner logo" data-title="NetApp" data-description="NetApp Alliance Partner logo"
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-5"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img
-                                src="https://www.petagene.com/wp-content/uploads/2018/06/dell-emc.png" alt="DellEMC" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-6"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/google.png"
-                                                                      alt="Google" data-description=""
-                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-7"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a
-                                href="https://www.petagene.com/wp-content/uploads/2019/08/wekaio_logo_web.png" title="Weka.io logo"
-                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/wekaio_logo_web-300x167.png"
-                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"
-                                data-mediatype="0"><img src="https://www.petagene.com/wp-content/uploads/2019/08/wekaio_logo_web.png"
-                                                        alt="Weka.io logo" data-title="Weka.io logo" data-description=""
-                                                        style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-8"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/cam.png"
-                                                                      alt="University of Cambridge" data-description=""
-                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-9"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/intel.png"
-                                                                      alt="Intel" data-description=""
-                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-10"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/PHI.png"
-                                                                      alt="Precision Health Informatics"
-                                                                      data-title="Precision Health Informatics" data-description=""
-                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-11"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a
-                                href="https://www.petagene.com/wp-content/uploads/2019/08/KNIH_logo_eng1_colour.png"
-                                title="National Institute of Health Republic of Korea logo"
-                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/KNIH_logo_eng1_colour-300x57.png"
-                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"
-                                data-mediatype="0"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/08/KNIH_logo_eng1_colour.png"
-                                alt="National Institute of Health Republic of Korea logo"
-                                data-title="National Institute of Health Republic of Korea logo" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-12"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a href="https://www.cegat.de/en/" target="_blank"><img
-                                src="https://www.petagene.com/wp-content/uploads/2020/01/CeGaT_Logo_RGB_m-S_Color-carousel.jpg"
-                                alt="CeGaT Logo" data-description="CeGaT logo"
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-13"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a href="https://www.prinsesmaximacentrum.nl/en" target="_blank"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/08/prinses-maxima-centrum-logo-en.png"
-                                alt="Princess Maxima Center logo" data-title="Princess Maxima Center logo" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-14"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a href="https://www.sentieon.com/" target="_blank"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/08/Sentieonlogo_web.png" alt="Sentieon logo"
-                                data-title="Sentieon logo" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-15"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a
-                                href="https://www.petagene.com/wp-content/uploads/2019/08/ToMMo-logo_web.png"
-                                title="Tohoku Medical Megabank Organisation"
-                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/ToMMo-logo_web-300x200.png"
-                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"
-                                data-mediatype="0"><img src="https://www.petagene.com/wp-content/uploads/2019/08/ToMMo-logo_web.png"
-                                                        alt="Tohoku Medical Megabank Organisation logo"
-                                                        data-title="Tohoku Medical Megabank Organisation" data-description=""
-                                                        style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-16"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a
-                                href="https://www.petagene.com/wp-content/uploads/2019/08/Baylor_College_of_Medicine_Logo_square_web.png"
-                                title="Baylor College of Medicine logo" data-description="Baylor College of Medicine"
-                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2019/08/Baylor_College_of_Medicine_Logo_square_web-300x300.png"
-                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"
-                                data-mediatype="0"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/08/Baylor_College_of_Medicine_Logo_square_web.png"
-                                alt="Baylor College of Medicine logo" data-title="Baylor College of Medicine logo"
-                                data-description="Baylor College of Medicine"
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-17"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a href="https://wwwen.uni.lu/lcsb" target="_self"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/08/LCSB-words-logo_web.png"
-                                alt="Luxembourg Centre for Systems Biomedicine logo"
-                                data-title="Luxembourg Centre for Systems Biomedicine" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-18"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><img src="https://www.petagene.com/wp-content/uploads/2018/06/kings.png"
-                                                                      alt="King's College London" data-title="King's College London"
-                                                                      data-description=""
-                                                                      style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-19"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a href="https://www.tgen.org/" target="_blank"><img
-                                src="https://www.petagene.com/wp-content/uploads/2019/10/TGen_Color_LOGO_medium.png" alt="TGen"
-                                data-title="TGen" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-20"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a href="https://www.petagene.com/wp-content/uploads/2021/03/elixir.jpg"
-                                                                    title="elixir"
-                                                                    data-thumbnail="https://www.petagene.com/wp-content/uploads/2021/03/elixir-300x129.jpg"
-                                                                    class="wondercarousellightbox wondercarousellightbox-2"
-                                                                    data-group="wondercarousellightbox-2" data-mediatype="0"><img
-                                src="https://www.petagene.com/wp-content/uploads/2021/03/elixir.jpg" alt="elixir" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-21"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a
-                                href="https://www.petagene.com/wp-content/uploads/2021/03/LifeCell-Corporate-Logo.png"
-                                title="LifeCell Corporate Logo"
-                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2021/03/LifeCell-Corporate-Logo-300x83.png"
-                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"
-                                data-mediatype="0"><img
-                                src="https://www.petagene.com/wp-content/uploads/2021/03/LifeCell-Corporate-Logo.png"
-                                alt="LifeCell Corporate Logo" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="amazingcarousel-item amazingcarousel-item-22"
-                              style="display: inline-block; position: relative; background-image: none; background-color: transparent; margin: 0px; padding: 0px; float: none;">
-                            <div class="amazingcarousel-item-container" style="position: relative; margin: 0px 2px;">
-                              <div class="amazingcarousel-image"><a
-                                href="https://www.petagene.com/wp-content/uploads/2021/05/BioSkrybGenomics_Logo.png"
-                                title="BioSkryb Genomics"
-                                data-thumbnail="https://www.petagene.com/wp-content/uploads/2021/05/BioSkrybGenomics_Logo.png"
-                                class="wondercarousellightbox wondercarousellightbox-2" data-group="wondercarousellightbox-2"
-                                data-mediatype="0"><img
-                                src="https://www.petagene.com/wp-content/uploads/2021/05/BioSkrybGenomics_Logo.png"
-                                alt="BioSkryb Genomics" data-description=""
-                                style="width: auto; height: 60px; visibility: visible; max-width: none; max-height: 100%; margin-top: 0px; margin-left: 0px;"></a>
-                              </div>
-                            </div>
-                          </li>
-                          <div style="clear:both;"></div>
-                        </ul>
-                      </div>
-                      <div class="amazingcarousel-prev"
-                           style="overflow: hidden; position: absolute; cursor: pointer; width: 48px; height: 48px; background: url('https://www.petagene.com/wp-content/plugins/wonderplugin-carousel/engine/arrows-48-48-2.png') left top no-repeat; display: none;"></div>
-                      <div class="amazingcarousel-next"
-                           style="overflow: hidden; position: absolute; cursor: pointer; width: 48px; height: 48px; background: url('https://www.petagene.com/wp-content/plugins/wonderplugin-carousel/engine/arrows-48-48-2.png') right top no-repeat; display: none;"></div>
-                    </div>
-                    <div class="amazingcarousel-nav"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></div></div></div>
-        </div>
-        <div class="row visible-xs customer-block">
-          <div class="col-xs-12" v-for="(item,index) in customerList" :key="index">
-            <div class="customer-logo">
-              <img class="center-block" :src="item.logo" alt="logo">
-            </div>
-            <div class="customer-yh">
-              <img src="@/assets/img/yinhao.png" alt="引号">
-            </div>
-            <div class="customer-content1">
-              <small>{{item.content}}</small>
-            </div>
-            <div class="customer-content2">
-              <small>{{item.title}}</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
     <!-- 为什么选择我们 -->
     <div id="whyChooseUs" class="conatiner-fuild">
       <div class="container">
